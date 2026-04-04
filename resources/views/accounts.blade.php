@@ -105,5 +105,46 @@
                 <p class="mt-4 text-gray-500 font-bold text-sm uppercase tracking-widest">Connect New Gateway</p>
             </div>
         </div>
+
+        <div>
+            <div class="flex justify-between items-center mb-6">
+                <h4 class="text-gray-500 text-[10px] font-black tracking-widest uppercase">Recent Operations</h4>
+                <p class="text-gray-600 text-[10px]">LATEST ACTIVITY TRACKER</p>
+            </div>
+            
+            <div class="bg-[#161922] border border-gray-800 rounded-2xl overflow-hidden">
+                <table class="w-full text-left text-sm text-gray-400">
+                    <thead class="bg-[#1b1f29] text-[10px] font-bold text-gray-500 uppercase tracking-tighter">
+                        <tr>
+                            <th class="px-6 py-4">Action</th>
+                            <th class="px-6 py-4">Subject</th>
+                            <th class="px-6 py-4">Status</th>
+                            <th class="px-6 py-4 text-right">Timestamp</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-800">
+                        <tr class="hover:bg-[#1e222d] transition">
+                            <td class="px-6 py-4 flex items-center gap-3">
+                                <span class="p-1.5 bg-blue-500/20 text-blue-400 rounded-md">↑</span>
+                                <span class="font-bold text-white">Funds Transfer</span>
+                            </td>
+                            <td class="px-6 py-4 italic">Sent $1,200 to Sarah Chen</td>
+                            <td class="px-6 py-4 text-[10px]"><span class="bg-blue-900 text-blue-400 px-2 py-0.5 rounded uppercase font-bold">Verified</span></td>
+                            <td class="px-6 py-4 text-right text-xs">2 hours ago</td>
+                        </tr>
+                        <tr class="hover:bg-[#1e222d] transition">
+                            <td class="px-6 py-4 flex items-center gap-3">
+                                <span class="p-1.5 bg-purple-500/20 text-purple-400 rounded-md">↓</span>
+                                <span class="font-bold text-white">Inward Remittance</span>
+                            </td>
+                            <td class="px-6 py-4 italic">Received from P.D Sinar Plastik</td>
+                            <td class="px-6 py-4 text-[10px]"><span class="bg-green-900 text-green-400 px-2 py-0.5 rounded uppercase font-bold">Cleared</span></td>
+                            <td class="px-6 py-4 text-right text-xs">5 hours ago</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
     </div>
 </x-layouts.app>
