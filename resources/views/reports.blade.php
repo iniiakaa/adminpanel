@@ -34,5 +34,40 @@
                 </div>
             </div>
         </div>
+
+        <div class="grid grid-cols-3 gap-6 mb-12">
+            <div class="col-span-2 bg-[#161922] border border-gray-800 rounded-3xl p-8 relative overflow-hidden group">
+                <div class="flex justify-between items-start">
+                    <span class="bg-[#0e2a2d] text-[#22d3ee] text-[10px] font-bold px-3 py-1 rounded-md">QUARTERLY HIGHLIGHT</span>
+                    <span class="text-gray-500 text-[10px] font-medium">Oct 2023 - Dec 2023</span>
+                </div>
+                <h2 class="text-3xl font-bold text-white mt-6 mb-4 w-3/4 leading-tight">Annual Operational Performance & Scaling Audit</h2>
+                <p class="text-gray-400 text-sm leading-relaxed w-2/3">A deep-dive into cross-functional efficiency and resource allocation across all regional clusters.</p>
+                
+                <div class="mt-12 flex justify-between items-center">
+                    <div class="flex -space-x-2">
+                        <img class="w-8 h-8 rounded-full border-2 border-[#161922]" src="https://ui-avatars.com/api/?name=User+1" alt="">
+                        <img class="w-8 h-8 rounded-full border-2 border-[#161922]" src="https://ui-avatars.com/api/?name=User+2" alt="">
+                        <div class="w-8 h-8 rounded-full border-2 border-[#161922] bg-gray-700 flex items-center justify-center text-[10px] font-bold">+4</div>
+                    </div>
+                    <a href="#" class="text-[#22d3ee] text-sm font-bold flex items-center gap-2 group-hover:underline">
+                        Download PDF 
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-[#161922] border border-gray-800 rounded-3xl p-8 flex flex-col justify-between">
+                <div>
+                    <span class="bg-[#241a3a] text-[#a855f7] text-[10px] font-bold px-3 py-1 rounded-md">AUTOMATION</span>
+                    <h3 class="text-xl font-bold text-white mt-6">Daily Health Check</h3>
+                    <p class="text-gray-500 text-xs mt-3 leading-relaxed">System-wide diagnostic and uptime report generated automatically by the AI kernel.</p>
+                </div>
+                <div class="flex justify-between items-center mt-10">
+                    <span class="text-gray-500 text-[10px] font-medium uppercase tracking-wider text-xs">2 hours ago</span>
+                    <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                </div>
+            </div>
+        </div>
     </div>
 </x-layouts.app>
