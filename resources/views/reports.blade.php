@@ -69,5 +69,45 @@
                 </div>
             </div>
         </div>
+
+        <div>
+            <div class="flex justify-between items-center mb-6">
+                <h4 class="text-gray-500 text-[10px] font-black tracking-widest uppercase">Historical Archive</h4>
+                <p class="text-gray-600 text-[10px]">Showing 148 documents</p>
+            </div>
+            
+            <div class="space-y-3">
+                @php
+                    $reports = [
+                        ['title' => 'Q3 Financial Integrity Assessment', 'file' => 'FIN_AUDIT_2023_Q3_FINAL.pdf', 'size' => '14.2 MB', 'author' => 'Marcus Kane'],
+                        ['title' => 'Market Volatility Prediction (CSV)', 'file' => 'ANALYTICS_EXPORT_BETA.csv', 'size' => '2.8 MB', 'author' => 'Nexus Engine'],
+                    ];
+                @endphp
+
+                @foreach($reports as $report)
+                <div class="flex items-center justify-between bg-[#161922] p-4 rounded-2xl border border-transparent hover:border-gray-700 transition group cursor-pointer">
+                    <div class="flex items-center gap-4">
+                        <div class="bg-[#1e222d] p-3 rounded-xl text-gray-400 group-hover:text-white transition">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                        </div>
+                        <div>
+                            <p class="text-sm font-bold text-white">{{ $report['title'] }}</p>
+                            <p class="text-[10px] text-gray-500 uppercase font-medium mt-0.5">{{ $report['file'] }} • {{ $report['size'] }}</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-16">
+                        <div class="text-right">
+                            <p class="text-[9px] text-gray-600 font-bold uppercase tracking-tighter">Author</p>
+                            <p class="text-xs font-semibold text-gray-300 italic">{{ $report['author'] }}</p>
+                        </div>
+                        <div class="flex gap-4 opacity-0 group-hover:opacity-100 transition">
+                            <button class="text-gray-500 hover:text-white"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg></button>
+                            <button class="text-gray-500 hover:text-white"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg></button>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+        </div>
     </div>
 </x-layouts.app>
