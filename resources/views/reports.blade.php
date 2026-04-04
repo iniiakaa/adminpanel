@@ -35,7 +35,7 @@
             </div>
         </div>
 
-        <!-- <div class="grid grid-cols-3 gap-6 mb-12">
+        <div class="grid grid-cols-3 gap-6 mb-12">
             <div class="col-span-2 bg-[#161922] border border-gray-800 rounded-3xl p-8 relative overflow-hidden group">
                 <div class="flex justify-between items-start">
                     <span class="bg-[#0e2a2d] text-[#22d3ee] text-[10px] font-bold px-3 py-1 rounded-md">QUARTERLY HIGHLIGHT</span>
@@ -109,5 +109,5 @@
                 @endforeach
             </div>
         </div>
-    </div> -->
+    </div>
 </x-layouts.app>
