@@ -105,7 +105,7 @@
 
             <div class="bg-gradient-to-br from-[#161922] to-[#0f111a] border border-gray-800 rounded-3xl p-8 flex flex-col justify-between shadow-2xl">
                 <div>
-                    <span class="bg-cyan-500/10 text-cyan-400 text-[10px] font-bold px-3 py-1 rounded-md uppercase">Net Profit</span>
+                    <span class="bg-green-500/10 text-green-400 text-[10px] font-bold px-3 py-1 rounded-md uppercase">Net Profit</span>
                     <h4 class="text-4xl font-bold text-white mt-4">Rp 758jt</h4>
                     <p class="text-xs text-green-400 mt-2 flex items-center gap-1">
                         <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z"/></svg>
