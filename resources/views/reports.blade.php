@@ -28,7 +28,7 @@
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"></path></svg>
                         Filters
                     </button>
-                    <button class="bg-gradient-to-r from-[#818cf8] to-[#22d3ee] text-black px-5 py-2 rounded-lg text-sm font-bold flex items-center gap-2 hover:opacity-90 transition">
+                    <button class="bg-gradient-to-r from-[#00d2ff] to-[#3a7bd5] text-white px-5 py-2 rounded-lg text-sm font-bold flex items-center gap-2 hover:opacity-90 shadow-lg shadow-blue-900/20 transition">
                         <span class="text-xl leading-none">+</span> Generate Report
                     </button>
                 </div>

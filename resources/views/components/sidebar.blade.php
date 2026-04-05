@@ -3,7 +3,7 @@
 <aside id="sidebar" class="sidebar">
     {{-- Brand --}}
     <div class="sidebar-brand">
-        <h1 class="sidebar-logo">FinVault</h1>
+        <h1 class="sidebar-logo">Luminescent</h1>
         <span class="sidebar-subtitle">FINANCIAL PLATFORM</span>
     </div>
 
