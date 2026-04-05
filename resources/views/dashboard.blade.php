@@ -206,10 +206,10 @@
                     <div class="space-y-6">
                         @php
                             $budgets = [
-                                ['label' => 'Operational', 'value' => '78%', 'width' => '78%', 'gradient' => 'from-teal-600 to-teal-400'],
-                                ['label' => 'Marketing', 'value' => '52%', 'width' => '52%', 'gradient' => 'from-cyan-600 to-cyan-400'],
-                                ['label' => 'R&D', 'value' => '65%', 'width' => '65%', 'gradient' => 'from-purple-600 to-purple-400'],
-                                ['label' => 'Infrastructure', 'value' => '41%', 'width' => '41%', 'gradient' => 'from-blue-600 to-blue-400'],
+                                ['label' => 'Operational', 'value' => '78%', 'width' => '78%'],
+                                ['label' => 'Marketing', 'value' => '52%', 'width' => '52%'],
+                                ['label' => 'R&D', 'value' => '65%', 'width' => '65%'],
+                                ['label' => 'Infrastructure', 'value' => '41%', 'width' => '41%'],
                             ];
                         @endphp
                         @foreach($budgets as $budget)
@@ -219,9 +219,8 @@
                                         class="text-xs font-semibold text-gray-400 uppercase tracking-wider">{{ $budget['label'] }}</span>
                                     <span class="text-sm font-bold text-white">{{ $budget['value'] }}</span>
                                 </div>
-                                <div class="h-2 bg-gray-800 rounded-full overflow-hidden">
-                                    <div class="h-full bg-gradient-to-r {{ $budget['gradient'] }} rounded-full transition-all duration-1000"
-                                        style="width: {{ $budget['width'] }};"></div>
+                                <div class="h-1.5 rounded-full overflow-hidden" style="background: rgba(255,255,255,0.08);">
+                                    <div class="h-full rounded-full" style="width: {{ $budget['width'] }}; background: rgba(255,255,255,0.7);"></div>
                                 </div>
                             </div>
                         @endforeach
