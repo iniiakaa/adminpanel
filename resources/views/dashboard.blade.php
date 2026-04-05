@@ -1,26 +1,14 @@
 <x-layouts.app active="dashboard" title="Dashboard">
     <div class="p-8">
 
-        <div class="flex justify-between items-center mb-10">
-            <div class="relative w-1/3">
-                <span class="absolute inset-y-0 left-0 flex items-center pl-3">
-                    <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-                    </svg>
-                </span>
-                <input type="text" placeholder="Search metrics, invoices, or reports..."
-                    class="w-full bg-[#161922] border-none text-sm rounded-lg pl-10 pr-4 py-2 text-gray-300 focus:ring-1 focus:ring-cyan-500">
-            </div>
+        <div class="flex justify-end items-center mb-10">
             <div class="flex items-center gap-6">
                 <div class="flex items-center gap-2">
                     <span class="text-[10px] font-bold text-gray-500 uppercase">Real-Time</span>
                     <span
                         class="bg-green-950 text-green-400 text-[10px] font-bold px-2 py-0.5 rounded-full border border-green-800">LIVE</span>
                 </div>
-                <div class="w-8 h-8 rounded-full border border-gray-700 overflow-hidden">
-                    <img src="https://ui-avatars.com/api/?name=Budi+Santoso&background=0D8ABC&color=fff" alt="User">
-                </div>
+
             </div>
         </div>
 
@@ -103,12 +91,18 @@
                 </div>
             </div>
 
-            <div class="bg-gradient-to-br from-[#161922] to-[#0f111a] border border-gray-800 rounded-3xl p-8 flex flex-col justify-between shadow-2xl">
+            <div
+                class="bg-gradient-to-br from-[#161922] to-[#0f111a] border border-gray-800 rounded-3xl p-8 flex flex-col justify-between shadow-2xl">
                 <div>
-                    <span class="bg-green-500/10 text-green-400 text-[10px] font-bold px-3 py-1 rounded-md uppercase">Net Profit</span>
+                    <span
+                        class="bg-green-500/10 text-green-400 text-[10px] font-bold px-3 py-1 rounded-md uppercase">Net
+                        Profit</span>
                     <h4 class="text-4xl font-bold text-white mt-4">Rp 758jt</h4>
                     <p class="text-xs text-green-400 mt-2 flex items-center gap-1">
-                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z"/></svg>
+                        <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z" />
+                        </svg>
                         +12.4% from last month
                     </p>
                 </div>
@@ -220,7 +214,8 @@
                                     <span class="text-sm font-bold text-white">{{ $budget['value'] }}</span>
                                 </div>
                                 <div class="h-1.5 rounded-full overflow-hidden" style="background: rgba(255,255,255,0.08);">
-                                    <div class="h-full rounded-full" style="width: {{ $budget['width'] }}; background: rgba(255,255,255,0.7);"></div>
+                                    <div class="h-full rounded-full"
+                                        style="width: {{ $budget['width'] }}; background: rgba(255,255,255,0.7);"></div>
                                 </div>
                             </div>
                         @endforeach

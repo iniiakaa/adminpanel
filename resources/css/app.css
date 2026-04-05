@@ -268,18 +268,17 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    background: var(--bg-card);
-    border: 1px solid var(--border-color);
-    border-radius: 12px;
-    padding: 8px 16px;
+    background: #0d0f12;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 9999px;
+    padding: 9px 18px;
     width: 320px;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 
 .navbar-search:focus-within {
-    border-color: rgba(0, 229, 200, 0.3);
-    box-shadow: 0 0 0 3px rgba(0, 229, 200, 0.08);
-    background: var(--bg-card-hover);
+    border-color: rgba(255, 255, 255, 0.12);
+    background: #111318;
 }
 
 .navbar-search-icon {
@@ -294,13 +293,13 @@
     background: transparent;
     border: none;
     outline: none;
-    color: var(--text-primary);
+    color: rgba(255, 255, 255, 0.75);
     font-size: 0.875rem;
     font-family: inherit;
 }
 
 .navbar-search-input::placeholder {
-    color: var(--text-muted);
+    color: rgba(255, 255, 255, 0.35);
 }
 
 /* Navbar Actions */
