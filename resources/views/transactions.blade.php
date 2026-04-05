@@ -14,7 +14,7 @@
                     <span class="bg-cyan-950 text-cyan-400 text-[10px] font-bold px-2 py-0.5 rounded-full border border-cyan-800">ACTIVE</span>
                 </div>
                 <div class="w-8 h-8 rounded-full border border-gray-700 overflow-hidden">
-                    <img src="https://ui-avatars.com/api/?name=Alex+Rivera&background=0D8ABC&color=fff" alt="User">
+                    <img src="https://ui-avatars.com/api/?name=Budi+Santoso&background=0D8ABC&color=fff" alt="User">
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@
             <div class="bg-gradient-to-br from-[#161922] to-[#0f111a] border border-gray-800 rounded-3xl p-8 flex flex-col justify-between shadow-2xl">
                 <div>
                     <span class="bg-cyan-500/10 text-cyan-400 text-[10px] font-bold px-3 py-1 rounded-md uppercase">Monthly Volume</span>
-                    <h4 class="text-4xl font-bold text-white mt-4">$1.2M</h4>
+                    <h4 class="text-4xl font-bold text-white mt-4">Rp 1.2M</h4>
                     <p class="text-xs text-green-400 mt-2 flex items-center gap-1">
                         <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z"/></svg>
                         +14.2% from last month
@@ -72,7 +72,7 @@
                 </div>
                 <div class="pt-6 border-t border-gray-800">
                     <p class="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Next Settlement</p>
-                    <p class="text-sm text-gray-300 mt-1">April 05, 2026 • 23:59</p>
+                    <p class="text-sm text-gray-300 mt-1">April 05, 2026 • 23:59 WIB</p>
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@
                 <h4 class="text-gray-500 text-[10px] font-black tracking-widest uppercase">Transaction History</h4>
                 <p class="text-gray-600 text-[10px]">Showing 2,401 operations</p>
             </div>
-            
+
             <div class="bg-[#161922] border border-gray-800 rounded-2xl overflow-hidden">
                 <table class="w-full text-left text-sm text-gray-400">
                     <thead class="bg-[#1b1f29] text-[10px] font-bold text-gray-500 uppercase tracking-tighter border-b border-gray-800">
@@ -100,15 +100,15 @@
                                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
                                 </div>
                                 <div>
-                                    <p class="font-bold text-white">Merchant Payment: Amazon Web Services</p>
+                                    <p class="font-bold text-white">Merchant Payment: PT Tokopedia</p>
                                     <p class="text-[10px] text-gray-500">ID: TXN-99201-BETA</p>
                                 </div>
                             </td>
                             <td class="px-6 py-5">
                                 <span class="bg-cyan-950 text-cyan-400 px-2 py-0.5 rounded text-[10px] font-bold border border-cyan-800 uppercase">Cleared</span>
                             </td>
-                            <td class="px-6 py-5 text-center font-mono text-white">-$1,420.00</td>
-                            <td class="px-6 py-5 text-right text-xs font-mono">20:34:11.02</td>
+                            <td class="px-6 py-5 text-center font-mono text-white">-Rp 21.3jt</td>
+                            <td class="px-6 py-5 text-right text-xs font-mono">20:34:11</td>
                         </tr>
                         <tr class="hover:bg-[#1e222d] transition group cursor-pointer">
                             <td class="px-6 py-5 flex items-center gap-3">
@@ -116,15 +116,15 @@
                                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                                 </div>
                                 <div>
-                                    <p class="font-bold text-white">Incoming Wire: P.D Sinar Plastik</p>
+                                    <p class="font-bold text-white">Incoming Wire: PT Sinar Plastik</p>
                                     <p class="text-[10px] text-gray-500">ID: TXN-00219-WIRE</p>
                                 </div>
                             </td>
                             <td class="px-6 py-5">
                                 <span class="bg-orange-950 text-orange-400 px-2 py-0.5 rounded text-[10px] font-bold border border-orange-800 uppercase">Pending</span>
                             </td>
-                            <td class="px-6 py-5 text-center font-mono text-green-400">+$12,500.00</td>
-                            <td class="px-6 py-5 text-right text-xs font-mono">19:42:01.88</td>
+                            <td class="px-6 py-5 text-center font-mono text-green-400">+Rp 187.5jt</td>
+                            <td class="px-6 py-5 text-right text-xs font-mono">19:42:01</td>
                         </tr>
                     </tbody>
                 </table>

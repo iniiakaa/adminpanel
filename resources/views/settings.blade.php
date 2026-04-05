@@ -9,9 +9,8 @@
                 <input type="text" placeholder="Search parameters, security, or protocols..." class="w-full bg-[#161922] border-none text-sm rounded-lg pl-10 pr-4 py-2 text-gray-300 focus:ring-1 focus:ring-purple-500 transition-all">
             </div>
             <div class="flex items-center gap-6">
-                <button class="text-gray-400 hover:text-white"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg></button>
                 <div class="w-8 h-8 rounded-full bg-orange-200 border border-gray-700 overflow-hidden">
-                    <img src="https://ui-avatars.com/api/?name=Alex+Sterling&background=fed7aa" alt="Profile">
+                    <img src="https://ui-avatars.com/api/?name=Budi+Santoso&background=fed7aa" alt="Profile">
                 </div>
             </div>
         </div>
@@ -24,7 +23,7 @@
 
         <div class="grid grid-cols-3 gap-8">
             <div class="col-span-2 space-y-8">
-                
+
                 <div class="bg-[#161922] border border-gray-800 rounded-3xl p-8">
                     <div class="flex justify-between items-start mb-8">
                         <div>
@@ -37,17 +36,17 @@
                     <div class="grid grid-cols-2 gap-6 mb-6">
                         <div class="space-y-2">
                             <label class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Full Display Name</label>
-                            <input type="text" value="Alex Sterling" class="w-full bg-[#0f111a] border border-gray-800 rounded-xl px-4 py-3 text-sm text-gray-300 focus:border-indigo-500 outline-none transition">
+                            <input type="text" value="Budi Santoso" class="w-full bg-[#0f111a] border border-gray-800 rounded-xl px-4 py-3 text-sm text-gray-300 focus:border-indigo-500 outline-none transition">
                         </div>
                         <div class="space-y-2">
                             <label class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Professional Email</label>
-                            <input type="email" value="alex.sterling@luminescent.ai" class="w-full bg-[#0f111a] border border-gray-800 rounded-xl px-4 py-3 text-sm text-gray-300 focus:border-indigo-500 outline-none transition">
+                            <input type="email" value="budi.santoso@finvault.co.id" class="w-full bg-[#0f111a] border border-gray-800 rounded-xl px-4 py-3 text-sm text-gray-300 focus:border-indigo-500 outline-none transition">
                         </div>
                     </div>
 
                     <div class="space-y-2">
                         <label class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Professional Bio</label>
-                        <textarea rows="4" class="w-full bg-[#0f111a] border border-gray-800 rounded-xl px-4 py-3 text-sm text-gray-300 focus:border-indigo-500 outline-none transition resize-none">Architecting atmospheric interfaces and high-precision digital ecosystems. Focused on the intersection of light and data.</textarea>
+                        <textarea rows="4" class="w-full bg-[#0f111a] border border-gray-800 rounded-xl px-4 py-3 text-sm text-gray-300 focus:border-indigo-500 outline-none transition resize-none">Senior Finance Manager with expertise in portfolio analytics, capital allocation, and operational efficiency across regional business units.</textarea>
                     </div>
                 </div>
 
@@ -77,7 +76,7 @@
                                 <div class="absolute right-1 top-1 bg-white w-3 h-3 rounded-full"></div>
                             </div>
                         </div>
-                        
+
                         <div class="flex items-center justify-between p-4 bg-[#0f111a] rounded-2xl border border-gray-800">
                             <div class="flex items-center gap-4">
                                 <div class="p-2 bg-gray-800 rounded-lg text-purple-400">
@@ -105,7 +104,7 @@
             </div>
 
             <div class="space-y-8">
-                
+
                 <div class="bg-[#161922] border border-gray-800 rounded-3xl p-8">
                     <h3 class="text-lg font-bold text-white mb-6">Notification Logic</h3>
                     <div class="space-y-6">
@@ -136,7 +135,7 @@
                     </div>
                     <div class="flex items-center gap-2 mt-4 text-[10px] text-gray-500">
                         <div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div>
-                        Verified Connection: Tokyo, JP
+                        Verified Connection: Jakarta, ID
                     </div>
                     <button class="w-full mt-10 py-3 rounded-xl border border-gray-800 text-gray-400 text-[10px] font-black uppercase tracking-widest hover:text-white hover:border-gray-600 transition">Terminate All Sessions</button>
                 </div>

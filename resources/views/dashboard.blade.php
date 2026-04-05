@@ -14,7 +14,7 @@
                     <span class="bg-green-950 text-green-400 text-[10px] font-bold px-2 py-0.5 rounded-full border border-green-800">LIVE</span>
                 </div>
                 <div class="w-8 h-8 rounded-full border border-gray-700 overflow-hidden">
-                    <img src="https://ui-avatars.com/api/?name=Alex+Rivera&background=0D8ABC&color=fff" alt="User">
+                    <img src="https://ui-avatars.com/api/?name=Budi+Santoso&background=0D8ABC&color=fff" alt="User">
                 </div>
             </div>
         </div>
@@ -42,10 +42,10 @@
         <div class="grid grid-cols-4 gap-4 mb-12">
             @php
                 $stats = [
-                    ['label' => 'Total Revenue', 'value' => 'Rp 1.24M', 'change' => '+18.2%', 'up' => true, 'color' => 'text-white', 'accent' => 'bg-cyan-500/10 text-cyan-400'],
-                    ['label' => 'Total Expenses', 'value' => 'Rp 482jt', 'change' => '-Rp 2.1jt', 'up' => false, 'color' => 'text-purple-400', 'accent' => 'bg-purple-500/10 text-purple-400'],
-                    ['label' => 'Net Profit', 'value' => 'Rp 758jt', 'change' => '+12.4%', 'up' => true, 'color' => 'text-cyan-400', 'accent' => 'bg-cyan-500/10 text-cyan-400'],
-                    ['label' => 'Active Accounts', 'value' => '12', 'change' => '+3', 'up' => true, 'color' => 'text-blue-400', 'accent' => 'bg-blue-500/10 text-blue-400'],
+                    ['label' => 'Total Revenue', 'value' => 'Rp 1.24M', 'change' => '+18.2%', 'up' => true, 'color' => 'text-white'],
+                    ['label' => 'Total Expenses', 'value' => 'Rp 482jt', 'change' => '-Rp 2.1jt', 'up' => false, 'color' => 'text-purple-400'],
+                    ['label' => 'Net Profit', 'value' => 'Rp 758jt', 'change' => '+12.4%', 'up' => true, 'color' => 'text-cyan-400'],
+                    ['label' => 'Active Accounts', 'value' => '12', 'change' => '+3 new', 'up' => true, 'color' => 'text-blue-400'],
                 ];
             @endphp
             @foreach($stats as $stat)
@@ -90,7 +90,7 @@
             <div class="bg-gradient-to-br from-[#161922] to-[#0f111a] border border-gray-800 rounded-3xl p-8 flex flex-col justify-between shadow-2xl">
                 <div>
                     <span class="bg-cyan-500/10 text-cyan-400 text-[10px] font-bold px-3 py-1 rounded-md uppercase">Monthly Volume</span>
-                    <h4 class="text-4xl font-bold text-white mt-4">$1.2M</h4>
+                    <h4 class="text-4xl font-bold text-white mt-4">Rp 1.2M</h4>
                     <p class="text-xs text-green-400 mt-2 flex items-center gap-1">
                         <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z"/></svg>
                         +14.2% from last month
@@ -126,7 +126,7 @@
                                         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
                                     </span>
                                     <div>
-                                        <p class="font-bold text-white">Payment received - Invoice #1042</p>
+                                        <p class="font-bold text-white">Payment received — Invoice #1042</p>
                                         <p class="text-[10px] text-gray-500">2 minutes ago</p>
                                     </div>
                                 </td>
@@ -152,7 +152,7 @@
                                         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
                                     </span>
                                     <div>
-                                        <p class="font-bold text-white">Vendor payment - PT Maju Jaya</p>
+                                        <p class="font-bold text-white">Vendor Payment — PT Maju Jaya</p>
                                         <p class="text-[10px] text-gray-500">4 hours ago</p>
                                     </div>
                                 </td>

@@ -9,7 +9,6 @@
                 <input type="text" placeholder="Search accounts, banks, or card holders..." class="w-full bg-[#161922] border-none text-sm rounded-lg pl-10 pr-4 py-2 text-gray-300 focus:ring-1 focus:ring-blue-500">
             </div>
             <div class="flex items-center gap-6">
-                <button class="text-gray-400 hover:text-white"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg></button>
                 <div class="flex items-center gap-2">
                     <span class="text-[10px] font-bold text-gray-500 uppercase">Gateway</span>
                     <span class="bg-green-950 text-green-400 text-[10px] font-bold px-2 py-0.5 rounded-full border border-green-800">ENCRYPTED</span>
@@ -39,7 +38,7 @@
         <div class="grid grid-cols-4 gap-4 mb-12">
             @php
                 $stats = [
-                    ['label' => 'Total Balance', 'value' => '$428,290', 'color' => 'text-white'],
+                    ['label' => 'Total Balance', 'value' => 'Rp 6.4M', 'color' => 'text-white'],
                     ['label' => 'Bank Accounts', 'value' => '12', 'color' => 'text-cyan-400'],
                     ['label' => 'Pending Sync', 'value' => '02', 'color' => 'text-purple-400'],
                     ['label' => 'Active Wallets', 'value' => '05', 'color' => 'text-blue-400'],
@@ -62,13 +61,13 @@
                     <span class="text-[10px] font-bold text-green-400 px-2 py-1 bg-green-400/10 rounded-md uppercase">Primary</span>
                 </div>
                 <div class="mt-6">
-                    <h3 class="text-xl font-bold text-white leading-tight">Corporate Treasury Bank</h3>
-                    <p class="text-gray-500 text-xs mt-1 italic">Chase Manhattan • **** 9920</p>
+                    <h3 class="text-xl font-bold text-white leading-tight">BCA Corporate Treasury</h3>
+                    <p class="text-gray-500 text-xs mt-1 italic">Bank Central Asia • **** 9920</p>
                 </div>
                 <div class="mt-8 flex justify-between items-end">
                     <div>
                         <p class="text-[10px] text-gray-600 font-bold uppercase tracking-wider">Balance</p>
-                        <p class="text-2xl font-bold text-white mt-1">$214,000.00</p>
+                        <p class="text-2xl font-bold text-white mt-1">Rp 3.21M</p>
                     </div>
                     <button class="bg-[#1e222d] p-2 rounded-lg text-gray-400 group-hover:text-blue-400 transition">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
@@ -84,13 +83,13 @@
                     <span class="text-[10px] font-bold text-gray-500 px-2 py-1 bg-gray-500/10 rounded-md uppercase">External</span>
                 </div>
                 <div class="mt-6">
-                    <h3 class="text-xl font-bold text-white leading-tight">Digital Assets Wallet</h3>
-                    <p class="text-gray-500 text-xs mt-1 italic">Coinbase Custody • 0x82...221d</p>
+                    <h3 class="text-xl font-bold text-white leading-tight">GoPay Business Wallet</h3>
+                    <p class="text-gray-500 text-xs mt-1 italic">Gojek Ecosystem • ****-7731</p>
                 </div>
                 <div class="mt-8 flex justify-between items-end">
                     <div>
                         <p class="text-[10px] text-gray-600 font-bold uppercase tracking-wider">Balance</p>
-                        <p class="text-2xl font-bold text-white mt-1">$14,550.25</p>
+                        <p class="text-2xl font-bold text-white mt-1">Rp 218.3jt</p>
                     </div>
                     <button class="bg-[#1e222d] p-2 rounded-lg text-gray-400 group-hover:text-purple-400 transition">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
@@ -111,7 +110,6 @@
                 <h4 class="text-gray-500 text-[10px] font-black tracking-widest uppercase">Recent Operations</h4>
                 <p class="text-gray-600 text-[10px]">LATEST ACTIVITY TRACKER</p>
             </div>
-            
             <div class="bg-[#161922] border border-gray-800 rounded-2xl overflow-hidden">
                 <table class="w-full text-left text-sm text-gray-400">
                     <thead class="bg-[#1b1f29] text-[10px] font-bold text-gray-500 uppercase tracking-tighter">
@@ -128,7 +126,7 @@
                                 <span class="p-1.5 bg-blue-500/20 text-blue-400 rounded-md">↑</span>
                                 <span class="font-bold text-white">Funds Transfer</span>
                             </td>
-                            <td class="px-6 py-4 italic">Sent $1,200 to Sarah Chen</td>
+                            <td class="px-6 py-4 italic">Sent Rp 18jt to Sarah Kusuma</td>
                             <td class="px-6 py-4 text-[10px]"><span class="bg-blue-900 text-blue-400 px-2 py-0.5 rounded uppercase font-bold">Verified</span></td>
                             <td class="px-6 py-4 text-right text-xs">2 hours ago</td>
                         </tr>
@@ -137,7 +135,7 @@
                                 <span class="p-1.5 bg-purple-500/20 text-purple-400 rounded-md">↓</span>
                                 <span class="font-bold text-white">Inward Remittance</span>
                             </td>
-                            <td class="px-6 py-4 italic">Received from P.D Sinar Plastik</td>
+                            <td class="px-6 py-4 italic">Received from PT Sinar Plastik</td>
                             <td class="px-6 py-4 text-[10px]"><span class="bg-green-900 text-green-400 px-2 py-0.5 rounded uppercase font-bold">Cleared</span></td>
                             <td class="px-6 py-4 text-right text-xs">5 hours ago</td>
                         </tr>

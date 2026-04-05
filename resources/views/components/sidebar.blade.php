@@ -89,7 +89,7 @@
             </svg>
         </div>
         <div class="sidebar-user-info">
-            <span class="sidebar-user-name">Alex Rivera</span>
+            <span class="sidebar-user-name">Budi Santoso</span>
             <span class="sidebar-user-role">Finance Manager</span>
         </div>
     </div>
